@@ -20,11 +20,11 @@ sh update.sh
 ```
 /root/ICW_Wallet/./cmd
 ```
-you can close cli with `CTRL + C`
 ### Check Your Node is Synchronized or Not (on ICW Cli)
 ```
 network info
 ```
+You can close ICW Cli with `CTRL + C`
 ## Other Command <br>
 ### See all Wallet that Imported (on ICW Cli)
 ```
