@@ -21,7 +21,7 @@ tar -xvf ICW_Wallet.tar
 ```
 sh update.sh
 ```
-### run ICW Cli
+### Run ICW Cli
 ```
 /root/ICW_Wallet/./cmd
 ```
