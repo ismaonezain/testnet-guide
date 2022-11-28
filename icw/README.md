@@ -12,7 +12,8 @@
 wget http://8.219.130.70:8002/download/ICW_Wallet.tar
 tar -xvf ICW_Wallet.tar
 ```
-### Copy your account folder (make sure your `account` folder on /root directory) *skip this if u still don't have any node
+### Copy your account folder (make sure your `account` folder on /root directory)
+*skip this if u still don't have any node
 ```
 \cp -rf /root/account/ /root/ICW_Wallet/data/
 ```
