@@ -62,6 +62,10 @@ tar -xvf ICW_Wallet.tar
 ```
 /root/ICW_Wallet/./cmd
 ```
+### Check Your Node is Synchronized or Not (on ICW Cli)
+```
+network info
+```
 ## Other Command <br>
 ### See all Wallet that Imported (on ICW Cli)
 ```
