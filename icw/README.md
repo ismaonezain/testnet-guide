@@ -4,18 +4,13 @@
 
 # icwchain
 
-## ICW : Migrate your node to new VPS
+## ICW : Create new NODE
 
 
 ### Download ICW NODE and Update Script + Extract
 ```
 wget http://8.219.130.70:8002/download/ICW_Wallet.tar
 tar -xvf ICW_Wallet.tar
-```
-### Copy your account folder (make sure your `account` folder on /root directory)
-*skip this if u still don't have any node
-```
-\cp -rf /root/account/ /root/ICW_Wallet/data/
 ```
 ### Start ICW Node *wait for all status become GREEN
 ```
@@ -45,6 +40,28 @@ createagent <youragent> <yourpackage> <commission> <amountstake>
 Example : createagent ICWxxxxxxxxx ICWxxxxxxxxxxx 50 20000. *Recommendation for Commission is 50
 Now you are done <br>
 You can close ICW Cli with `CTRL + C`
+
+## ICW : Migrate your NODE
+
+
+### Download ICW NODE and Update Script + Extract
+```
+wget http://8.219.130.70:8002/download/ICW_Wallet.tar
+tar -xvf ICW_Wallet.tar
+```
+### Copy your backup of account folder (make sure your `account` folder on /root directory)
+```
+\cp -rf /root/account/ /root/ICW_Wallet/data/
+```
+### Start ICW Node *wait for all status become GREEN
+```
+/root/ICW_Wallet/./start
+/root/ICW_Wallet/./check-status
+```
+### Start ICW Cli
+```
+/root/ICW_Wallet/./cmd
+```
 ## Other Command <br>
 ### See all Wallet that Imported (on ICW Cli)
 ```
