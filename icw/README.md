@@ -10,18 +10,19 @@
 ### Download ICW NODE and Update Script + Extract
 ```
 wget http://8.219.130.70:8002/download/ICW_Wallet.tar
-wget https://wallet.icwchain.com/update.sh
 tar -xvf ICW_Wallet.tar
 ```
-### Copy your account folder (make sure your `account` folder on /root directory)
+### Copy your account folder (make sure your `account` folder on /root directory) *skip this if u still don't have any node
 ```
 \cp -rf /root/account/ /root/ICW_Wallet/data/
 ```
-### Update Your Node and Wait for `./check-status` all green (it will stopped automatically)
+### Start ICW Node *wait for all status become GREEN
 ```
-sh update.sh
+/root/ICW_Wallet/./start
+/root/ICW_Wallet/./check-status
+/root/ICW_Wallet/./cmd
 ```
-### Run ICW Cli
+### Start ICW Cli
 ```
 /root/ICW_Wallet/./cmd
 ```
