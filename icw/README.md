@@ -7,7 +7,7 @@
 ## ICW : Create new NODE
 
 
-### Download ICW NODE and Update Script + Extract
+### Download ICW NODE + Extract
 ```
 wget http://8.219.130.70:8002/download/ICW_Wallet.tar
 tar -xvf ICW_Wallet.tar
@@ -44,7 +44,7 @@ You can close ICW Cli with `CTRL + C`
 ## ICW : Migrate your NODE
 
 
-### Download ICW NODE and Update Script + Extract
+### Download ICW NODE + Extract
 ```
 wget http://8.219.130.70:8002/download/ICW_Wallet.tar
 tar -xvf ICW_Wallet.tar
