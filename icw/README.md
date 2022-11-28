@@ -37,7 +37,7 @@ network info
 ```
 createagent <youragent> <yourpackage> <commission> <amountstake>
 ```
-Example : createagent ICWxxxxxxxxx ICWxxxxxxxxxxx 50 20000. *Recommendation for Commission is 50
+Example : createagent ICWxxxxxxxxx ICWxxxxxxxxxxx 50 20000. *Recommendation for Commission is 50 <br>
 Now you are done <br>
 You can close ICW Cli with `CTRL + C`
 
