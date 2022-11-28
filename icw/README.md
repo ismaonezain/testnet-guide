@@ -20,12 +20,16 @@ tar -xvf ICW_Wallet.tar
 ```
 /root/ICW_Wallet/./start
 /root/ICW_Wallet/./check-status
-/root/ICW_Wallet/./cmd
 ```
 ### Start ICW Cli
 ```
 /root/ICW_Wallet/./cmd
 ```
+### Import Account to ICW Node
+```
+import <youraddress>
+```
+input your password with your own password on Agent Address And "ICW123456" on Package Address
 ### Check Your Node is Synchronized or Not (on ICW Cli)
 ```
 network info
