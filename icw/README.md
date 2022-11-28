@@ -27,9 +27,9 @@ tar -xvf ICW_Wallet.tar
 /root/ICW_Wallet/./cmd
 ```
 ### Import Account to ICW Node
-U need to create 2 account, Agent and Package. Agent hold 20k ICW and Package no need to hold any tokens.
-Create here https://wallet.icwchain.com/
-After that, back to ICW Cli
+U need to create 2 account, Agent and Package. Agent hold 20k ICW and Package no need to hold any tokens. <br>
+Create here https://wallet.icwchain.com/ <br>
+After that, back to ICW Cli <br>
 ```
 import <youraddress>
 ```
@@ -43,7 +43,7 @@ network info
 createagent <youragent> <yourpackage> <commission> <amountstake>
 ```
 Example : createagent ICWxxxxxxxxx ICWxxxxxxxxxxx 50 20000. *Recommendation for Commission is 50
-Now you are done
+Now you are done <br>
 You can close ICW Cli with `CTRL + C`
 ## Other Command <br>
 ### See all Wallet that Imported (on ICW Cli)
