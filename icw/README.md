@@ -9,7 +9,7 @@
 
 ### Download ICW NODE + Extract
 ```
-wget http://8.219.130.70:8002/download/ICW_Wallet.tar
+wget https://wallet.icwchain.com/ICW_Wallet.tar.gz
 tar -xvf ICW_Wallet.tar
 ```
 ### Start ICW Node *wait for all status become GREEN
