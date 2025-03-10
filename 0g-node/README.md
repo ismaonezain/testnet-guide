@@ -104,7 +104,7 @@ Tekan `CTRL+A`, lalu `D` untuk keluar dari screen tanpa menghentikan proses.
 ## 6. Monitoring dan Logging
 Gunakan perintah berikut untuk memantau log node:
 ```sh
-tail -f log/output.log
+tail -f 0g-storage-node/run/log/zgs.log.2025.XX.XX
 ```
 
 Cek status koneksi:
