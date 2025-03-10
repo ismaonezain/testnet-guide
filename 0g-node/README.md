@@ -89,10 +89,6 @@ Simpan dan keluar dari editor (`CTRL+X`, lalu `Y` dan `Enter`).
 
 ## 5. Menjalankan Storage Node
 Jalankan storage node dengan perintah berikut:
-```sh
-./target/release/0g-storage-node --config config.toml
-```
-
 Untuk memastikan node tetap berjalan meskipun terminal tertutup, jalankan dalam mode `screen` atau `tmux`:
 ```sh
 screen -S 0g-node ./target/release/0g-storage-node --config config.toml
@@ -105,11 +101,6 @@ Tekan `CTRL+A`, lalu `D` untuk keluar dari screen tanpa menghentikan proses.
 Gunakan perintah berikut untuk memantau log node:
 ```sh
 tail -F 0g-storage-node/run/log/zgs.log.*
-```
-
-Cek status koneksi:
-```sh
-netstat -tulnp | grep 0g-storage-node
 ```
 
 ---
@@ -127,11 +118,6 @@ Jika node tidak berjalan, coba:
 
 ## 8. Menutup Node
 Untuk menghentikan node, gunakan perintah:
-```sh
-pkill -f 0g-storage-node
-```
-
-Atau jika dijalankan dalam `screen`, masuk kembali dengan:
 ```sh
 screen -r 0g-node
 ```
