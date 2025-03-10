@@ -33,7 +33,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ---
 
 ## 3. Unduh dan Bangun Kode Sumber
-Clone repositori kode sumber dari GitHub:
+Clone repositori kode sumber dari GitHub (latest_tag diganti tag terakhir di link github):
 ```sh
 git clone -b <latest_tag> https://github.com/0glabs/0g-storage-node.git
 ```
