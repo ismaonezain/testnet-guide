@@ -1,4 +1,4 @@
-# Menjalankan Storage Node di 0G Network
+# Menjalankan Storage Node di 0G Network (DONE)
 
 ## 1. Persyaratan Perangkat Keras
 Pastikan perangkat keras yang digunakan memenuhi spesifikasi berikut:
